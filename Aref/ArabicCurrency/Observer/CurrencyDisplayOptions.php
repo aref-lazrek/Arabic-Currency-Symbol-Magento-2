@@ -18,7 +18,7 @@ class CurrencyDisplayOptions implements ObserverInterface
         $baseCode = $observer->getEvent()->getBaseCode();
         $currencyOptions = $observer->getEvent()->getCurrencyOptions();
 
-        if ($baseCode === 'SAR') { // change currency symbol position to Right with EUR
+        if ($baseCode === 'SAR') { // change to your currency code 
             $currencyOptions->setData('position', \Magento\Framework\Currency::LEFT);
         }
 
