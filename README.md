@@ -7,6 +7,8 @@ Installation - Installing using archive
 Download ZIP Archive  
 Put extracted files in app folder of your Magento 2 root directory : app/code/Aref/ArabicCurrency  
 
+in Aref\ArabicCurrency\Observer\CurrencyDisplayOptions.php the currency code is Saudia Ryal SAR change it to your currency
+
 If your not in developer mode you need to run these commands:  
   
 php bin/magento setup:upgrade  
